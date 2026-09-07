@@ -1,0 +1,19 @@
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and r# 1. Define the class (blueprint)
+class Car:
+    # Constructor: runs when creating a new object
+    def __init__(self, brand, color):
+        self.brand = brand  # Attribute (data)
+        self.color = color  # Attribute (data)
+
+    # Method (behavior)
+    def drive(self):
+        print(f"The {self.color} {self.brand} is driving.")
+
+# 2. Create objects (instances)
+car1 = Car("Toyota", "Red")
+car2 = Car("Tesla", "Black")
+
+# 3. Access attributes and methods
+car1.drive()  # Output: The Red Toyota is driving.
+print(car2.brand)  # Output: Tesla
