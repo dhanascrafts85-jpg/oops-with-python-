@@ -1,19 +1,16 @@
-# 1. Define the class
-class Mobile:
-    def __init__(self, brand, price):
-        self.brand = brand
-        self.price = price
+class Sample:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
-    def display(self):
-        print(f"Brand: {self.brand} | Price: ₹{self.price}")
+    def read(self):
+        print(self.name)
+        print(self.age)
 
 
-# 2. Create multiple objects from the same class
-phone1 = Mobile("Apple", 80000)
-phone2 = Mobile("Samsung", 65000)
-phone3 = Mobile("OnePlus", 40000)
+s1 = Sample("july", 3)
+s1.read()
 
-# 3. Use methods on each object
-phone1.display()
-phone2.display()
-phone3.display()
+s2 = Sample("Karthik", 18)
+s2.read()
+
