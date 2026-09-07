@@ -1,0 +1,16 @@
+
+class Demo:
+    
+    def calculate(self, a=None, b=None):
+        if a is not None and b is not None:
+            print(f"Sum: {a + b}")
+        elif a is not None:
+            print(f"Value: {a}")
+        else:
+            print("No arguments provided")
+
+
+obj = Demo()
+obj.calculate()          
+obj.calculate(10)        
+obj.calculate(10, 20)  
