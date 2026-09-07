@@ -1,0 +1,6 @@
+# Operator with polymorphism
+
+print(10 + 20)
+print("hello" + "world")
+print(2 ** 3)
+print("hi" * 3)
