@@ -1,0 +1,19 @@
+# 1. Define the class
+class Mobile:
+    def __init__(self, brand, price):
+        self.brand = brand
+        self.price = price
+
+    def display(self):
+        print(f"Brand: {self.brand} | Price: ₹{self.price}")
+
+
+# 2. Create multiple objects from the same class
+phone1 = Mobile("Apple", 80000)
+phone2 = Mobile("Samsung", 65000)
+phone3 = Mobile("OnePlus", 40000)
+
+# 3. Use methods on each object
+phone1.display()
+phone2.display()
+phone3.display()
