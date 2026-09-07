@@ -1,0 +1,11 @@
+class student:
+    name = "Nithin"
+    Age = 18
+
+class Demo(student):
+    branch = "aiml"
+
+d1 = Demo()
+print(d1.name)
+print(d1.Age)
+print(d1.branch)
