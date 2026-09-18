@@ -1,6 +1,6 @@
 class BankAccount:
     def __init__(self):
-        self.holder_name = "avinash"
+        self.holder_name = "Karthik"
         self.account_no = "1234567"
         self.balance = 500.0
 
