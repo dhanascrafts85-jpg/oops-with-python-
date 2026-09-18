@@ -1,0 +1,26 @@
+class BankAccount:
+    def __init__(self):
+        self.holder_name = "avinash"
+        self.account_no = "1234567"
+        self.balance = 500.0
+
+    def deposit(self, amount):
+        self.balance += amount
+        print(f"Deposited {amount}. New balance: {self.balance}")
+
+    def withdraw(self, amount):
+        actual_withdrawal = min(self.balance, amount)
+        self.balance -= actual_withdrawal
+        print(f"Withdrew {actual_withdrawal}. Remaining balance: {self.balance}")
+
+    def display_balance(self):
+        print(f"Holder: {self.holder_name}")
+        print(f"Account No: {self.account_no}")
+        print(f"Balance: {self.balance}")
+
+
+
+account = BankAccount()
+account.display_balance()
+account.deposit(250)
+account.withdraw(300)
