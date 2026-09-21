@@ -9,7 +9,6 @@ class Car(Vehicle):
     def __init__(self, brand, model, number_of_doors):
         super().__init__(brand, model)
         self.number_of_doors = number_of_doors
-
     def display_details(self):
         super().display_details()
         print("Number of Doors:", self.number_of_doors)
@@ -17,7 +16,6 @@ class Bike(Vehicle):
     def __init__(self, brand, model, engine_cc):
         super().__init__(brand, model)
         self.engine_cc = engine_cc
-
     def display_details(self):
         super().display_details()
         print("Engine CC:", self.engine_cc)
